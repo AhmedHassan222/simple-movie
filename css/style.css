@@ -1,0 +1,72 @@
+
+.bg-nav-style 
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+li a{
+    transition: all 2s;
+}
+li a:hover
+{
+    cursor: pointer;
+    border-bottom: solid white 2px;
+    transform: scale(1.1);   
+}
+
+
+
+
+
+
+.btn-style
+{
+    background-color: transparent;
+    border: black solid 2px;
+    color: black;
+    border-radius: 5px;
+
+    
+}
+.btn-style:hover
+{
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+}
+.img-caption 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    background-color: rgba(0, 0, 0,0.8);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    transition: all 0.7s;
+}
+.item:hover .img-caption
+{
+    top: 0px;
+
+}
+
+.margin-top{
+    margin-top: 8%;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer i:hover
+{
+
+
+
+    border-radius: 50%;
+    transform: scale(1.1);
+
+}
+
